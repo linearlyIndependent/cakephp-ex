@@ -1,5 +1,5 @@
 <?php
-$servername = "mysql.hosting-test.cluster.local";
+$servername = "172.26.234.82";
 $username = "karl_der_benutzer";
 $password = "karl_der_user_passwort";
 $dbname = "karl_der_datenbank";
