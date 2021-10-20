@@ -1,8 +1,8 @@
 <?php
-$servername = "172.26.234.82";
-$username = "karl_der_benutzer";
-$password = "karl_der_user_passwort";
-$dbname = "karl_der_datenbank";
+$servername = "DB_HOSTNAME";
+$username = getenv('MYSQL_ROOT_USER');
+$password = getenv('MYSQL_ROOT_PASSWORD');
+$dbname = getenv('MYSQL_DATABASE');
 $dbport = "3306";
 
 
